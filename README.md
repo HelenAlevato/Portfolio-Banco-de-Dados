@@ -17,7 +17,7 @@ Agora vou apresentar minha primeira experiência com o API na Fatec SJC.
 ## Meu Primeiro API  📚
 
 #### Em 2020-1 (API 1)
-Trabalhei no projeto da API do primeiro semestre. O master era um integrante do sexto semestre. O professor Fabiano S. foi o orientador. [GitHub do projeto](https://github.com/Projeto-Integrador-BD)<br> 
+Trabalhei no projeto da API do primeiro semestre. O master era um integrante do sexto semestre. O professor Fabiano S. foi o orientador. [GitHub do projeto.](https://github.com/Projeto-Integrador-BD)<br> 
 - **Nome do Grupo:** ivy-projeto-bd
 - **Nome do Software:**  Ivy
 - **Visão do Produto:** Gerenciamento de produtividade pessoal para o dia a dia.
@@ -66,7 +66,7 @@ ____
 ## Meu Terceiro API  📚
 
 #### Em 2021-1 (API 3)
-Trabalhei no projeto da API com o Parceiro Embraer.<br> 
+Trabalhei no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
 - **Nome do Grupo:** Finger One
 - **Nome do Software:**  14 BIS
 - **Visão do Produto:** Fornecer suporte para a criação de um software, onde o usuário terá uma facilidade em customizar, controlar e revisar documentos formados por fragmentos armazenados em arquivos PDF.
@@ -81,10 +81,21 @@ Trabalhei no projeto da API com o Parceiro Embraer.<br>
 - **Proposta:**
 
 	-   Após contato com a empresa, levantamos que eles querem simplificar o processo e ser mais assertivo. Sendo assim será desenvolvido um sistema simples e objetivo, fazendo com que seja ágil e a taxa de erro seja menor. <br>
-[https://github.com/HelenAlevato/14bis]
 
 #### Tecnologias Utilizadas 🛠
-Analytics, Intelligent Things, Plataforma de Inetração
+- [GitHub (clique aqui)](https://trello.com/b/EW0XA8qH/finger-one)
+ - [Trello (clique aqui)](https://trello.com/pt-BR)
+ - [Adobe XD (clique aqui)](https://www.adobe.com/br/products/xd.html)
+ - [StackEdit (clique aqui)]( https://stackedit.io/)
+ - [PostgreSQL (clique aqui)](https://www.postgresql.org/)
+ - [Intellij (clique aqui)](https://www.jetbrains.com/pt-br/idea/)
+ - [Java(clique aqui)](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+ - [Eclipse (clique aqui)](https://www.eclipse.org/downloads/)
+ - [VSCode (clique aqui)](https://code.visualstudio.com/download)
+ - [React (clique aqui)](https://react-cn.github.io/react/downloads.html)
+ - [Carbon (clique aqui)](https://www.carbondesignsystem.com/designing/kits/sketch/)
+ - [Postman (clique aqui)](https://www.postman.com/downloads/)
+ - [Spring boot (clique aqui)](https://spring.io/)
 
 ## Contribuições Pessoais 👩
 Dentro das contribuições pessoais eu fiquei responsável por ser P.O e membro da equipe do front-end. Com explicarei abaixo:
