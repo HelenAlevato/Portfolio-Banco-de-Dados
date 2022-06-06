@@ -27,11 +27,18 @@ Trabalhei no projeto da API do primeiro semestre. O master era um integrante do 
 	
 	- Pesquisa: pesquisar informações no Google.
 
+#### Vídeos explicativos do projeto feitos por mim 📺
+- [Apresentação da ideia inicial do projeto](https://www.youtube.com/watch?v=mC4Ij5v4oQo)
+- [Apresentação final do projeto](https://www.youtube.com/watch?v=nHQFg2epm9o)
+
 #### Tecnologias Utilizadas 🛠
 Reconhecimento de Voz utilizando a API do Google, API do sexto semestre, Visual Studio Code.
 
 ## Contribuições Pessoais 👩
 Nesse trabalho todos ficamos como desenvolvedores, dividindo as tarefas entre as funcionalidades. Além disso eu fiquei responsável pela criação do nome, identidade visual do trabalho, vídeos de apresentação e Readme.
+<br/>
+
+![image](https://user-images.githubusercontent.com/61571753/172079236-9df43dc0-b34b-4eb9-9cde-efa6341a3db9.png)
 
 **Desenvolvimento:**  
 
@@ -98,3 +105,6 @@ Nesse trabalho todos ficamos como desenvolvedores, dividindo as tarefas entre as
 #### Soft Skills Efetivamente Desenvolvidas
 * Autonomia
 * Lógica de programação
+* Flexibilidade e adaptabilidade
+* Suportar críticas
+* Atitude positiva
