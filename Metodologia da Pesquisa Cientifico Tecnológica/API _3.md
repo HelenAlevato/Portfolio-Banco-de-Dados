@@ -32,6 +32,10 @@ Trabalhei no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https:
  - [Postman (clique aqui)](https://www.postman.com/downloads/)
  - [Spring boot (clique aqui)](https://spring.io/)
 
+<div style="display: flex; flex-grow: 1; justify-content: center">
+ <img src="https://github.com/mateuscamargo/14bis/blob/main/Sprint%2001/Logo/Logo.png" width="800" height="420"/>
+</div>
+
 ## Contribuições Pessoais 👩
 Dentro das contribuições pessoais eu fiquei responsável por ser P.O e membro da equipe do front-end. Com explicarei abaixo:
 
