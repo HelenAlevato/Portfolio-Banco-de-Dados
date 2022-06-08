@@ -38,8 +38,6 @@ Reconhecimento de Voz utilizando a API do Google, API do sexto semestre, Visual 
 Nesse trabalho todos ficamos como desenvolvedores, dividindo as tarefas entre as funcionalidades. Além disso eu fiquei responsável pela criação do nome, identidade visual do trabalho, vídeos de apresentação e Readme.
 <br/>
 
-![image](https://user-images.githubusercontent.com/61571753/172079236-9df43dc0-b34b-4eb9-9cde-efa6341a3db9.png)
-
 **Desenvolvimento:**  
 
 <details>
