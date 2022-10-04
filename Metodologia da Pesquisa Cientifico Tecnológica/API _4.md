@@ -1,7 +1,7 @@
 ## Meu Quarto API  📚
 
 #### Em 2022-1 (API 4)
-Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
+Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Com a empresa Oracle como parceira. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
 - **Nome do Grupo:** VueForce
 - **Nome do Software:**  LeFoot
 - **Visão do Produto:** Ajudar na tomada de decisões de gerentes e diretores com relação a tomada de decisão para campanhas e compras de determinados produtos.
@@ -152,7 +152,170 @@ import axios from 'axios';
   <summary>Desenvolvimento Tela Criar Conta (front-end)</summary>
   
   ```javascript
- 
+	<template>
+  <div id="painelRedefinir">
+    <h3 style="font-size: 30px">Criar Conta</h3>
+
+    <span style="margin: 1rem; display: flex; flex-direction: column">
+      <label for="nome1">Nome do usuário </label>
+      <input type="text" ref="userName" maxlength="20" minlength="5" />
+    </span>
+
+    <span style="margin: 1rem; display: flex; flex-direction: column">
+      <label for="senha"> Nome </label>
+      <input type="text" ref="firstName" />
+    </span>
+
+    <span style="margin: 1rem; display: flex; flex-direction: column">
+      <label for="senha"> Sobrenome </label>
+      <input type="text" ref="lastName" />
+    </span>
+
+    <span style="margin: 1rem; display: flex; flex-direction: column">
+      <label for="email1">E-mail </label>
+      <input type="text" ref="email" />
+    </span>
+
+    <span style="margin: 1rem; display: flex; flex-direction: column">
+      <label for="senha"> Senha </label>
+      <input type="password" ref="password" />
+    </span>
+
+    <Button
+      class="button is-dark is-smal"
+      style="margin-top: 10px"
+      :disabled="isLoading"
+      @click="
+        () => {
+          this.isLoading = true;
+          signup();
+        }
+      "
+      >Criar</Button
+    >
+
+    <span v-if="mensagem">{{ mensagem }}</span>
+    <ol class="lista-erros has-text-danger">
+      <li v-for="erro in this.erros" :key="erro.msg">
+        <span style="font-weight: bold">{{erro.campo}}</span>: {{erro.msg}}
+      </li>
+    </ol>
+  </div>
+</template>
+
+<script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      mensagem: "",
+      erroSenha: false,
+      isLoading: false,
+      erros: [],
+    };
+  },
+
+  methods: {
+    signup() {
+      const username = this.$refs.userName.value;
+      const firstName = this.$refs.firstName.value;
+      const lastName = this.$refs.lastName.value;
+      const email = this.$refs.email.value;
+      const password = this.$refs.password.value;
+
+      const headers = { "Content-Type": "application/json" };
+
+      const body = {
+        username,
+        password,
+        email,
+        fname: firstName,
+        lname: lastName,
+        status: "ativo",
+        role: ["ROLE_USER"],
+      };
+
+      axios
+        .post("http://localhost:8081/api/auth/signup", body, headers)
+        .then((result) => {
+          console.log("teste teste");
+          if (result.status === 200) {
+            this.mensagem = `Usuário ${username} criado com sucesso, acesse a tela de login para acessar a aplicação!`;
+          }
+        })
+        .catch((error) => {
+          const allErrors = error.response.data.errors;
+          if (allErrors) {
+            this.erros = allErrors.map((erro) => ({
+              campo: erro.field,
+              msg: erro.defaultMessage,
+            }));
+          } else {
+            alert(error);
+          }
+        })
+        .finally(() => {
+          this.isLoading = false;
+        });
+    },
+  },
+};
+</script>
+
+<style scoped>
+.inputError {
+  color: red;
+}
+
+#painelRedefinir {
+  width: 30%;
+  min-width: 20%;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(148, 148, 148);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+}
+label {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  color: rgb(59, 59, 59);
+}
+button {
+  padding: 5px;
+  border: none;
+}
+input {
+  padding: 5px;
+}
+#app {
+}
+.app-container {
+  background-color: white;
+  text-align: center;
+}
+body #app .p-button {
+  margin-left: 0.2em;
+}
+form {
+  margin-top: 2em;
+}
+.lista-erros {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+</style>
 
   ```
 </details>
@@ -161,6 +324,46 @@ import axios from 'axios';
   <summary>Paginação da tela Filtrar clientes</summary>
   
   ```javascript
+    <!-- Barra de paginação -->
+    <div v-if="listaFiltrada.length > 0" class="table-container">
+      <div style="width: 50%">
+        <nav
+          class="pagination is-right"
+          role="navigation"
+          aria-label="pagination"
+        >
+          <label>{{ paginaAtual + 1 }}</label>
+          <a class="pagination-previous" style="color: white" @click="paginaAnterior">Previous</a>
+          <a class="pagination-next" style="color: white" @click="proximaPagina">Next page</a>
+          <ul class="pagination-list">
+            <li>
+              <a
+                class="pagination-link" style="color: white"
+                aria-label="Page 1"
+                aria-current="page"
+                @click="atualizarPaginaAtual(0)"
+                >1</a
+              >
+            </li>
+            <li>
+              <a
+                class="pagination-link" style="color: white"
+                aria-label="Goto page 2"
+                @click="atualizarPaginaAtual(1)"
+                >2</a
+              >
+            </li>
+            <li>
+              <a
+                class="pagination-link" style="color: white"
+                aria-label="Goto page 3"
+                @click="atualizarPaginaAtual(2)"
+                >3</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
   ```
 </details>
@@ -177,8 +380,276 @@ import axios from 'axios';
   <summary>Desenvolvimento da tela de Dashboard (front-end)</summary>
   
   ```javascript
-  - mock
-  - implementação da lógica dos gráficos
+  <script>
+import axios from "axios";
+import VueChart from "../components/VueChart.vue";
+
+export default {
+  components: {
+    VueChart,
+  },
+
+  props: {
+    listaCSV: {
+      type: Array,
+      default: []
+    },
+  },
+
+  data() {
+    return {
+      dadosChart1: [],
+      dadosChart2: [],
+      dadosChart3: [],
+
+      labelsChart1: [],
+      labelsChart2: [],
+      labelsChart3: [],
+
+      optionsChart1: {},
+      optionsChart2: {},
+      optionsChart3: {},
+
+      valorteste: 20,
+    };
+  },
+
+  methods: {
+
+    tratarGrafico1() {
+      let masculino = 0;
+      let feminino = 0;
+      let outros = 0;
+
+      this.listaCSV.forEach((linhaExcel) => {
+        if (linhaExcel.gender === "feminino") {
+          feminino += 1;
+        } else if (linhaExcel.gender === "masculino") {
+          masculino += 1;
+        } else {
+          outros += 1;
+        }
+      });
+
+      let data = [feminino, masculino, outros];
+
+      this.labelsChart1 = ['feminino', 'masculino', 'outros'];
+      this.optionsChart1 = {
+        responsive: true
+      };
+      this.dadosChart1 = [
+        {
+          label: "Comparação de compra entre os gêneros",
+          backgroundColor: "rgba(152,120,200,0.1)",
+          borderColor: "rgba(152, 120, 200, 1)",
+          borderWidth: "2",
+          borderRadius: 2,
+          data,
+          indexAxis: "x",
+        },
+      ];
+    },
+
+    tratarGrafico2() {
+      let produtosPorGenero = [];
+
+      console.log(this.listaCSV)
+      this.listaCSV.forEach((linhaExcel) => {
+        let categoria  = linhaExcel.category?.toLowerCase();
+        let genero     = linhaExcel.gender?.toLowerCase();
+        let quantidade = linhaExcel.quantity ?? 0;
+
+        if (!produtosPorGenero[genero]) {
+          produtosPorGenero[genero] = [];
+        }
+        
+        if (!produtosPorGenero[genero][categoria] && produtosPorGenero[genero][categoria] !== 0) {
+          produtosPorGenero[genero][categoria] = quantidade;
+        } else {
+          produtosPorGenero[genero][categoria] += quantidade;
+        }
+      });
+      
+      let maxMasculino;
+      let maxFeminino;
+      let maxOutros;
+      let produtos = produtosPorGenero['masculino']
+      Object.keys(produtos).forEach(key => {
+        if (!maxMasculino) {
+          maxMasculino = { nomeProduto: key, quantidade: produtos[key] }
+        } else if (maxMasculino.quantidade < produtos[key]) {
+          let quantidade = produtos[key];
+          maxMasculino = { nomeProduto: key, quantidade }
+        }
+      })
+
+      produtos = produtosPorGenero['feminino'];
+      Object.keys(produtos).forEach(key => {
+        if (!maxFeminino) {
+          maxFeminino = { nomeProduto: key, quantidade: produtos[key] }
+        } else if (maxFeminino.quantidade < produtos[key]) {
+          let quantidade = produtos[key];
+          maxFeminino = { nomeProduto: key, quantidade }
+        }
+      })
+
+      produtos = produtosPorGenero['outros'];
+      Object.keys(produtos).forEach(key => {
+        if (!maxOutros) {
+          maxOutros = { nomeProduto: key, quantidade: produtos[key] }
+        } else if (maxOutros.quantidade < produtos[key]) {
+          let quantidade = produtos[key];
+          maxOutros = { nomeProduto: key, quantidade }
+        }
+      })
+      
+      let data = [
+        maxFeminino.quantidade,
+        maxMasculino.quantidade,
+        maxOutros.quantidade
+      ];
+
+      this.labelsChart2 = [`mulheres: ${maxFeminino.nomeProduto}`, `homens: ${maxMasculino.nomeProduto}`, `outros: ${maxOutros.nomeProduto}`];
+      
+      this.optionsChart2 = {
+        responsive: true,
+        maintainAspectRatio: false
+      };
+
+      this.dadosChart2 = [
+        {
+          label: [maxFeminino.nomeProduto, maxMasculino.nomeProduto, maxOutros.nomeProduto],
+          backgroundColor: ["rgba(250, 120, 200, 0.1)", "rgba(100, 100, 200, 0.1)", "rgba(152, 250, 200, 0.1)"],
+          borderColor: ["rgba(250, 120, 200, 1)", "rgba(100, 100, 200, 1)", "rgba(152, 250, 200, 1)"],
+          data,
+        },
+      ];
+    },
+
+    tratarGrafico3() {
+      let listaGastosPorRegiao = [];
+
+      this.listaCSV.forEach((linhaExcel) => {
+        let regiao = linhaExcel.region?.toLowerCase();
+        let genero = linhaExcel.gender?.toLowerCase();
+        let gasto  = linhaExcel.spent ?? 0;
+        if (!listaGastosPorRegiao[genero]) {
+          listaGastosPorRegiao[genero] = { centro: 0, leste: 0, norte: 0, oeste: 0, sudeste: 0, sul: 0 };
+        } else {
+          listaGastosPorRegiao[genero][regiao] += gasto;
+        }
+      });
+
+      let data = [
+        listaGastosPorRegiao['feminino'],
+        listaGastosPorRegiao['masculino'],
+        listaGastosPorRegiao['outros'],
+      ];
+
+      let generos = [
+        {label: 'feminino', color: 'rgba(250, 120, 200, 0.5)', borderColor: 'rgba(250, 120, 200, 1)'}, 
+        {label: 'masculino', color: 'rgba(100, 100, 200, 0.5)', borderColor: 'rgba(100, 100, 200, 1)'}, 
+        {label: 'outros', color: 'rgba(152, 250, 200, 0.5)', borderColor: 'rgba(152, 250, 200, 1)'}
+      ];
+
+      this.labelsChart3 = ['centro', 'leste', 'norte', 'oeste', 'sudeste', 'sul'];
+      
+      this.optionsChart3 = {
+        responsive: true,
+        maintainAspectRatio: false
+      }
+
+      this.dadosChart3 = data.map((dadosRegiao, index) => ({
+        label: generos[index].label,
+        backgroundColor: generos[index].borderColor,
+        borderColor: generos[index].color,
+        data: [
+          dadosRegiao['centro'],
+          dadosRegiao['leste'],
+          dadosRegiao['norte'],
+          dadosRegiao['oeste'],
+          dadosRegiao['sudeste'],
+          dadosRegiao['sul']
+        ],
+      }))
+    },
+  },
+
+  beforeMount() {
+    this.tratarGrafico1();
+    this.tratarGrafico2();
+    this.tratarGrafico3();
+  },
+};
+</script>
+
+<template>
+  <div class="pageContainer">
+    <div class="chartContainer">
+      <div class="chartBox">
+        <p>Soma de todos os produtos por gênero</p>
+        <vue-chart
+          v-if="dadosChart1.length > 0"
+          :dataset="this.dadosChart1"
+          :labels="this.labelsChart1"
+        ></vue-chart>
+      </div>
+      
+      <div class="chartBox">
+        <p>Produto mais vendido por gênero</p>
+        <vue-chart
+          v-if="dadosChart2.length > 0"
+          :dataset="this.dadosChart2"
+          :labels="this.labelsChart2"
+          :chartOptions="this.optionsChart2"
+          :height="178"
+          type="doughnut"
+        ></vue-chart>  
+      </div>
+
+      <div id="teste" class="chartBox" style="width: 100%">
+        <p>Valor gasto por gênero para cada região</p>
+        <vue-chart
+          v-if="dadosChart3.length > 0"
+          :dataset="this.dadosChart3"
+          :labels="this.labelsChart3"
+          :chartOptions="this.optionsChart3"
+          :height="250"
+          :width="350"
+          type="line"
+        ></vue-chart>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style>
+.pageContainer {
+  padding: 10px;
+  width: 100%;
+}
+
+.chartContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chartBox {
+  height: 40%;
+  width: 48%;
+  background-color: rgb(48, 46, 54);
+  /* background-color: white; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.chartBox > p {
+  text-align: center;
+}
+</style>
 
   ```
 </details>
