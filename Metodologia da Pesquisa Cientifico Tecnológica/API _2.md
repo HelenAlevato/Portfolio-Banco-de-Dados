@@ -33,10 +33,7 @@ Nesse trabalho fiquei como desenvolvedora, responsável também por algumas apre
 
 **Desenvolvimento:**  
 
-<details>
-  <summary>Telas feitas para o sistema</summary>
-  ```
-  Telas feitas para o sistema
+Telas feitas para o sistema
   - Cadastro Cliente: Tela para cadastrar os usuários que contratarem o sistema da empresa;
   - Cadastro Imovel: Dados cadastrais do imóvel ou imoveis do usuário;
   - Cadastro Usuário: Tela para cadastrar o funcionário que irá mexer no sistema;
@@ -44,8 +41,7 @@ Nesse trabalho fiquei como desenvolvedora, responsável também por algumas apre
   - Conta Gás: Tela para facilitar na digitação dos campos das contas de gás;
   - Conta Luz: Tela para facilitar na digitação dos campos das contas de luz;
   - Menu: barra de navegação para acessar as outras telas de forma mais rápida.
-  ```
-</details>
+  
 <details>
   <summary>Adição dos documentos para a pasta /doc</summary>
   ```java
