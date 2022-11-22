@@ -36,9 +36,9 @@ Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Co
 
 ## Contribuições Pessoais 👩
 Nesse trabalho fiquei como Team Dev, responsavel pela parte de front-end. 
-Fiz os desenhos da tela pelo figma e o modo de navegação, como ficaria no projeto final.
-Fiz algumas coisas no back-end também ...
-Fiz ...
+Referente a parte de planejamento fiz os desenhos da tela pelo figma e o modo de navegação, como ficaria no projeto final.
+Na parte de back-end contribui apenas com uma correção de organização referente aos dados exibidos na Tela de Filtrar Clientes.
+No front-end onde tive mais atuação fiz as telas e ligações com o back-end, as atividades dividi em alguns tópicos abaixo:
 
 **Desenvolvimento:**  
 
@@ -372,7 +372,20 @@ form {
   <summary>Adição do Logo no cabeçalho</summary>
   
   ```javascript
-
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="./assets/logo.svg" width="100">
+        </a>
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/new/account">Criar conta</a>
+        <!-- <a class="navbar-item" href="/filtrar-clientes">CSV</a> -->
+        <a class="navbar-item" href="/login">Login</a>
+      </div>
+      <div class="navbar-menu">
+        <!-- navbar start, navbar end -->
+      </div>
+    </nav>
   ```
 </details>
 
