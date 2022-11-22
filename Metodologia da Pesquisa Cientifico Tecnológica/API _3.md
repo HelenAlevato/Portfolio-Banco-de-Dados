@@ -32,7 +32,6 @@ Trabalhei no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https:
  - [Postman (clique aqui)](https://www.postman.com/downloads/)
  - [Spring boot (clique aqui)](https://spring.io/)
 
-
 ## Contribuições Pessoais 👩
 Dentro das contribuições pessoais eu fiquei responsável por ser P.O e membro da equipe do front-end. Com explicarei abaixo:
 
