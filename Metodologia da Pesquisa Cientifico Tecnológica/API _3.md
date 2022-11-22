@@ -18,19 +18,19 @@ Trabalhei no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https:
 	-   Após contato com a empresa, levantamos que eles querem simplificar o processo e ser mais assertivo. Sendo assim será desenvolvido um sistema simples e objetivo, fazendo com que seja ágil e a taxa de erro seja menor. <br>
 
 #### Tecnologias Utilizadas 🛠
-- [GitHub (clique aqui)](https://trello.com/b/EW0XA8qH/finger-one)
- - [Trello (clique aqui)](https://trello.com/pt-BR)
- - [Adobe XD (clique aqui)](https://www.adobe.com/br/products/xd.html)
- - [StackEdit (clique aqui)]( https://stackedit.io/)
- - [PostgreSQL (clique aqui)](https://www.postgresql.org/)
- - [Intellij (clique aqui)](https://www.jetbrains.com/pt-br/idea/)
- - [Java(clique aqui)](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
- - [Eclipse (clique aqui)](https://www.eclipse.org/downloads/)
- - [VSCode (clique aqui)](https://code.visualstudio.com/download)
- - [React (clique aqui)](https://react-cn.github.io/react/downloads.html)
- - [Carbon (clique aqui)](https://www.carbondesignsystem.com/designing/kits/sketch/)
- - [Postman (clique aqui)](https://www.postman.com/downloads/)
- - [Spring boot (clique aqui)](https://spring.io/)
+- [GitHub](https://trello.com/b/EW0XA8qH/finger-one)
+ - [Trello](https://trello.com/pt-BR)
+ - [Adobe XD](https://www.adobe.com/br/products/xd.html)
+ - [StackEdit]( https://stackedit.io/)
+ - [PostgreSQL](https://www.postgresql.org/)
+ - [Intellij](https://www.jetbrains.com/pt-br/idea/)
+ - [Java](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+ - [Eclipse](https://www.eclipse.org/downloads/)
+ - [VSCode](https://code.visualstudio.com/download)
+ - [React](https://react-cn.github.io/react/downloads.html)
+ - [Carbon](https://www.carbondesignsystem.com/designing/kits/sketch/)
+ - [Postman](https://www.postman.com/downloads/)
+ - [Spring boot](https://spring.io/)
 
 ## Contribuições Pessoais 👩
 Dentro das contribuições pessoais eu fiquei responsável por ser P.O e membro da equipe do front-end. Com explicarei abaixo:
