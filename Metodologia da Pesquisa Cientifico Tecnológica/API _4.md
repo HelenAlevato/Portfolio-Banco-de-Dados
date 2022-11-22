@@ -44,6 +44,8 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 
 <details>
   <summary>Desenvolvimento das telas Redefinição de Senha (front-end)</summary>
+	
+	Nessa tela ..
   
   ```javascript
   <template>
@@ -75,6 +77,8 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 
 <details>
   <summary>Tela de Upload CSV</summary>
+	
+	Nessa tela ..
   
   ```javascript
   <template>
@@ -99,6 +103,8 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 
 <details>
   <summary>Desenvolvimento tela Login (front-end)</summary>
+	
+	Nessa tela ..
   
   ```javascript
   <template>
@@ -150,6 +156,8 @@ import axios from 'axios';
 
 <details>
   <summary>Desenvolvimento Tela Criar Conta (front-end)</summary>
+	
+	Nessa tela ..
   
   ```javascript
 	<template>
@@ -322,6 +330,8 @@ form {
 
 <details>
   <summary>Paginação da tela Filtrar clientes</summary>
+	
+	Nessa tela ..
   
   ```javascript
     <!-- Barra de paginação -->
@@ -370,6 +380,8 @@ form {
 
 <details>
   <summary>Adição do Logo no cabeçalho</summary>
+	
+	Nessa tela ..
   
   ```javascript
       <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -391,6 +403,8 @@ form {
 
 <details>
   <summary>Desenvolvimento da tela de Dashboard (front-end)</summary>
+	
+	Nessa tela ..
   
   ```javascript
   <script>
@@ -669,6 +683,8 @@ export default {
 
 <details>
   <summary>Filtros na tela Filtrar clientes, que são: Gênero, Região, Categoria do sapato e Cor</summary>
+	
+	Nessa tela ..
   
   ```javascript
   </div>
@@ -751,6 +767,8 @@ export default {
 
 <details>
   <summary>Funcionalidade de Gerar Relatório</summary>
+	
+	Nessa tela ..
   
   ```javascript
 
