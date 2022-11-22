@@ -43,91 +43,31 @@ Sendo P.O eu fazia no mínimo 2 reuniões semanais. Conseguimos documentar bem o
 
 **Desenvolvimento:**  
 
+- Retornar codelist salvo no banco de dados
+- Permitir arquivo para extração do codelist pelo FrontEnd
+- Atualização da proposta Sprint 2
+- Adição da Aba "LEP" na página de Codelist
+- Adição da entidade Manual
+- Adição do manual ao passar o Codelist
+- Pequenas atualizações visuais na interface
+- Envio do nome do manual na inserção do codelist
+- Tabela Manual: Retornar todos manuais cadastrados
+- Controller para busca dos manuais
+- Adição da Tela de Edição de Blocos do Codelist
+- Ajuste na configuração do caminho do PDF
+- Melhorias na página do codelist e busca de PDFs com base na aplicabilidade
+- Busca de todas as páginas pelo bloco e pelo codigo
+
+Código de exmplo na construção das telas
 <details>
-  <summary>Feature/Retornar codelist salvo no banco de dados</summary>
+	
+	Nessa tela..
+	
+  <summary>Tela...</summary>
   ```
   ```
 </details>
-<details>
-  <summary>Feature/Permitir arquivo para extração do codelist pelo FrontEnd</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Atualização da proposta Sprint 2</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Feature/ Adição da Aba "LEP" na página de Codelist</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Adição da entidade Manual</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Adição do manual ao passar o Codelist</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Pequenas atualizações visuais na interface</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Envio do nome do manual na inserção do codelist</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Tabela Manual: Retornar todos manuais cadastrados</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Merge branch 'Sprint-3'</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Merge branch 'main'</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Controller para busca dos manuais</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Feature/Adição da Tela de Edição de Blocos do Codelist</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Ajuste na configuração do caminho do PDF</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Melhorias na página do codelist e busca de PDFs com base na aplicabilidade</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Busca de todas as páginas pelo bloco e pelo codigo</summary>
-  ```
-  ```
-</details>
-<details>
-  <summary>Atualização sobre a Sprint 5</summary>
-  ```
-  ```
-</details>
+
 
 
 #### Hard Skills Efetivamente Desenvolvidas
