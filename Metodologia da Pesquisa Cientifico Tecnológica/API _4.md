@@ -43,42 +43,10 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 **Desenvolvimento:**  
 
 <details>
-  <summary>Desenvolvimento das telas Redefinição de Senha (front-end)</summary>
-	
-	Nessa tela ..
-  
-  ```javascript
-  <template>
-  <div id="painelRedefinir">
-      <h3 style="font-size: 30px;">Redefinir Senha</h3> 
-
-      <span style="margin: 1rem; display: flex; flex-direction: column">
-        <label for="nome1">Nome </label>
-        <input type="text" />
-      </span> 
-      <span style="margin: 1rem; display: flex; flex-direction: column">
-        <label for="email1">Email </label>
-        <input type="text" />
-      </span> 
-      <span style="margin: 1rem; display: flex; flex-direction: column">
-        <label for="novaSenha">Nova Senha </label>
-        <input type="password" />
-      </span> 
-      <span style="margin: 1rem; display: flex; flex-direction: column">
-        <label for="confirmeSenha">Confirme a senha </label>
-        <input type="password" />
-      </span> 
-
-      <Button style="margin-top: 10px">Redefinir</Button>
-  </div>
-</template>
-  ```
-</details>
-
-<details>
   <summary>Tela de Upload CSV</summary>
 	
-	Nessa tela ..
+	Nessa tela foi desenvolvida a funcionalidade de  salvar no sitema gravando no banco de dados um arquivo CSV, 
+	para que as informações dele sejam usadas e manipuladas no sistema.
   
   ```javascript
   <template>
@@ -104,7 +72,8 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 <details>
   <summary>Desenvolvimento tela Login (front-end)</summary>
 	
-	Nessa tela ..
+	Nessa tela foi criado 2 campos de texto e 1 botão, para que o usuário consiga entrar com seu login e senha na aplicação, 
+	a validadeção do usuária é feita no banco de dados, se bater as informações o sistema permitirá o acesso.
   
   ```javascript
   <template>
@@ -157,7 +126,9 @@ import axios from 'axios';
 <details>
   <summary>Desenvolvimento Tela Criar Conta (front-end)</summary>
 	
-	Nessa tela ..
+	Nessa tela foi foi desenvolvida a criação de conta, para que o usuário possa criar uma conta usando nome de usuário, nome, sobrenome, 
+	e-mai e senha. Clicando no botão criar um e-mail é desparado avisando a pessoa que a conta foi criada com sucesso, além dessa ação o 
+	botaõ criar também ploquei que o usuário fique clicando nele, após ser clicado uma vez ele fica desabilitado para novos cliques.
   
   ```javascript
 	<template>
@@ -331,7 +302,7 @@ form {
 <details>
   <summary>Paginação da tela Filtrar clientes</summary>
 	
-	Nessa tela ..
+	A paginação foi implementada para mostrar de forma mais organizada e bonita as informações
   
   ```javascript
     <!-- Barra de paginação -->
@@ -381,7 +352,7 @@ form {
 <details>
   <summary>Adição do Logo no cabeçalho</summary>
 	
-	Nessa tela ..
+	O logo foi feito pensando na identidade visual do sistema, usamos o formato SVG para ter uma melhor qualidade na imagem
   
   ```javascript
       <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -404,7 +375,10 @@ form {
 <details>
   <summary>Desenvolvimento da tela de Dashboard (front-end)</summary>
 	
-	Nessa tela ..
+	A tela de Dashboard reune 3 gráficos diferentes, sendo:
+	- Soma de todos os produtos por gênero: onde mostra a quantidade de compras efetuadas por cada gênero;
+	- Produto mais vendido por gênero: onde mostra o tipo de produto que foi mais comprado por cada gênero;
+	- Valor gasto por gênero para cada região: Mostra dividido pelos gêneros a quantidade de valor gasto de acordo com suas regiões.
   
   ```javascript
   <script>
@@ -684,7 +658,11 @@ export default {
 <details>
   <summary>Filtros na tela Filtrar clientes, que são: Gênero, Região, Categoria do sapato e Cor</summary>
 	
-	Nessa tela ..
+	A parte dos filtros permite fazer varias comparações, usando os filtros simultaneamente, nos filtros temos a opção de filtrar por:
+	- Gênero
+	- Região 
+	- Categoria do sapato
+	- Cor
   
   ```javascript
   </div>
@@ -768,7 +746,7 @@ export default {
 <details>
   <summary>Funcionalidade de Gerar Relatório</summary>
 	
-	Nessa tela ..
+	Nessa funcionalidade são agrupados alguns dados importantes, com informações puxadas do banco de dodos para compor um mini relatório
   
   ```javascript
 
