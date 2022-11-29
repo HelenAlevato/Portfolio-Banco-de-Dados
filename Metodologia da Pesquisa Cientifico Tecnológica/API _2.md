@@ -59,6 +59,9 @@ Código de exmplo na construção das telas
 
 <details>
   <summary>Exemplo do desenvolvimento de uma das telas, no caso Conta de Água</summary>
+	
+	Na tela de conta, nesse caso a de água foi pega as informações principais das contas de água e feito um formulario 
+	para que o usuário que precisar digitar a conta consiga fazer isso de forma fácil e rápida.
   
   ```java
 	package application.controllers;
@@ -314,6 +317,17 @@ Código de exmplo na construção das telas
 
 <details>
   <summary>Menu Controller</summary>
+
+
+	No menu controler foi centralizado um menu de cabeçalho, nele temos uma barra de pesquisa e vários botões para que o usuário 
+	consiga já identificar qual caminho ele irá tomar, esses potões redirecionam para as telas que são:
+		- Cadastro usuário
+		- Cadastro cliente
+		- Conta Luz
+		- Conta Gás
+		- Conta Água
+		- Cadastro Imovel
+
   
   ```java
 	package application.controllers;
