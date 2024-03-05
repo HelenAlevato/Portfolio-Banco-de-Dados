@@ -25,34 +25,40 @@ Trabalhei no projeto da API do quinto semestre como desenvolvedora back-end. Com
 ## Contribuições Pessoais 👩
 Nesse trabalho fiquei como Team Dev, responsavel pela parte de back-end. 
 
-**Desenvolvimento:**  
-
+**Desenvolvimento:** 
 <details>
-  <summary>Exemplo de atividade</summary>
+  <summary>Upload de arquivo</summary>
 	
-	Nessa tela foi desenvolvida a funcionalidade de  salvar no sitema gravando no banco de dados um arquivo CSV, 
-	para que as informações dele sejam usadas e manipuladas no sistema.
+	Nessa tela foi desenvolvida a funcionalidade de upload de arquivo, para conseguir subir as palavras necessárias para o uso do sistema. 
   
   ```javascript
   <template>
-  <div id="card">
-      <h3 style="font-size: 30px; text-align: center">Carregar arquivo CSV</h3> 
-
-    <form>
-        <div style="display: flex; justify-content: center;">
-            <label for="arquivo">Insira arquivo aqui</label>
-            <input type="file" name="arquivo" id="arquivo" accept=".csv">
-        </div>
-    </form>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 32px;">
-        <Button style="margin-top: 10px">Voltar</Button>
-        <Button style="margin-top: 10px">Carregar</Button>
-
-      </div>
-  </div>
 </template>
   ```
 </details>
+
+<details>
+  <summary>Tela de filtros</summary>
+	
+	Nessa tela foi desenvolvida a funcionalidade de  filtrar as palavras com alguns critérios, fazendo parte do front-end e do back-end.
+  
+  ```javascript
+  <template>
+</template>
+  ```
+</details>
+
+<details>
+  <summary>Ação botão sair</summary>
+	
+	Funcionalidade do botão sair
+  
+  ```javascript
+  <template>
+</template>
+  ```
+</details>
+
 
 #### Hard Skills Efetivamente Desenvolvidas
 * HTML, CSS, JavaScript
