@@ -358,10 +358,31 @@ export default {
 </details>
 
 
-#### Hard Skills Efetivamente Desenvolvidas
-* HTML, CSS, JavaScript
+<div align="center">
 
-#### Soft Skills Efetivamente Desenvolvidas
-* Confiança
-* Lógica de programação
+**Hard Skills**
+|**Tecnologia/Metodologia**|**Soft Skills**        |
+|--------------------------|-----------------------|
+|HTML                      |Sei fazer com Autonomia|
+|CSS                       |Sei fazer com Autonomia|
+|JavaScript                |Sei fazer com Ajuda    |
+|Git                       |Sei fazer com Ajuda    |
+|GitHub                    |Sei fazer com Ajuda    |
+|Vue.js                    |Sei fazer com Ajuda    |
+|Jira Software             |Sei fazer com Ajuda    |
+|Python                    |Entendi                |
+|Mongodb compass           |Entendi                |
+
+
+
+**Soft Skills**
+|Habilidade           |Descrição                                                                                                                       |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------|
+|Organização          |Capacidade de planejar e gerenciar tarefas de forma eficiente.                                                                  |
+|Trabalho em Equipe   |Habilidade de colaborar e comunicar efetivamente com outros membros da equipe para alcançar objetivos comuns.                   |
+|Proatividade         |Iniciativa para identificar e abordar problemas, capacidade de buscar oportunidades de melhoria sem a necessidade de supervisão.|
+|Confiança            |Autoconfiança e a capacidade de confiar nos próprios conhecimentos e habilidades, bem como nos outros membros da equipe.        |
+|Lógica de programação|Capacidade de pensar logicamente e resolver problemas de forma estruturada e eficaz usando algoritmos e técnicas de programação.|
+
+</div>
 
