@@ -16,6 +16,10 @@ Após um ano de estágio, fui efetivada como desenvolvedora front-end, onde tenh
 
 Atualmente, resido em SJC/SP e estou focada em continuar minha jornada na área de TI, buscando oportunidades de aprendizado e crescimento profissional. 
 
+<p align="center">
+  <img src="C:\Users\helen\OneDrive\Documentos\Fatec_6_semestre\Jorge - Projeto trabalho de graduação em banco de dados II\Bertoti\Metodologia da Pesquisa Cientifico Tecnológica\assets\helen.jpg" alt="Helen Alevato" width="100" height="100">
+</p>
+
 ## Portifólio de API's 🎯
 
 O Projeto Integrador visa resolver um problema do mundo real, identificado em parceria com uma empresa e a instituição de ensino, aplicando o conhecimento adquirido durante a graduação.
