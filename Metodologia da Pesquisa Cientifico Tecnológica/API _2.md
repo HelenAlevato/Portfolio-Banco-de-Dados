@@ -477,16 +477,21 @@ Código de exmplo na construção das telas
   ```
 </details>
 
+<div align="center">
+
+**Hard Skills**
+|**Tecnologia/Metodologia**|**Classificação**        |
+|--------------------------|-----------------------|
+|Eclipse                   |Sei fazer com Ajuda    |
+|Java Fx                   |Sei fazer com Ajuda    |
+|MYSQL                     |Sei fazer com Autonomia|
+|JAVA                      |Sei fazer com Ajuda    |
 
 
+**Soft Skills**
+|**Habilidade**            |**Descrição**          |
+|--------------------------|-----------------------|
+|Autonomia|Autonomia em pesquisar e executar tarefas sozinha, sem conhecimento prévio|
+|Atitude positiva|Manter uma mentalidade positiva e proativa, mesmo diante de desafios e contratempos, buscando sempre soluções e mantendo um ambiente de trabalho colaborativo e motivador.|
 
-#### Hard Skills Efetivamente Desenvolvidas
-Eclipse
-Java Fx 
-MYSQL 
-JAVA versão 11
-
-#### Soft Skills Efetivamente Desenvolvidas
-Autonomia<br>
-
-
+</div>

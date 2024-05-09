@@ -96,13 +96,21 @@ Nesse trabalho todos ficamos como desenvolvedores, dividindo as tarefas entre as
   ```
 </details>
 
+<div align="center">
 
-#### Hard Skills Efetivamente Desenvolvidas
-* Python
+**Hard Skills**
+|**Tecnologia/Metodologia**|**Classificação**      |
+|--------------------------|-----------------------|
+|Python                    |Sei fazer com Ajuda    |
 
-#### Soft Skills Efetivamente Desenvolvidas
-* Autonomia
-* Lógica de programação
-* Flexibilidade e adaptabilidade
-* Suportar críticas
-* Atitude positiva
+
+**Soft Skills**
+|**Habilidade**     |**Descrição**        |
+|-------------------|---------------------|
+|Autonomia|Autonomia em pesquisar e executar tarefas sozinha, sem conhecimento prévio|
+|Lógica de programação|Capacidade de pensar de forma estruturada e analítica para resolver problemas de programação, identificando padrões e criando algoritmos eficientes.|
+|Flexibilidade e adaptabilidade|Capacidade de se adaptar a novas tecnologias, metodologias e requisitos de projeto, respondendo de forma ágil a mudanças e imprevistos durante o processo de desenvolvimento.|
+|Suportar críticasia|Capacidade de receber feedback construtivo de colegas e clientes de forma objetiva e sem levar para o lado pessoal, utilizando as críticas como oportunidades de aprendizado e melhoria contínua.|
+|Atitude positiva|Manter uma mentalidade positiva e proativa, mesmo diante de desafios e contratempos, buscando sempre soluções e mantendo um ambiente de trabalho colaborativo e motivador.|
+
+</div>

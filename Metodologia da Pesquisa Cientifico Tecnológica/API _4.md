@@ -3,7 +3,6 @@
 #### Em 2022-1 (API 4)
 Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Com a empresa Oracle como parceira. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
 - **Nome do Grupo:** VueForce
-- **Nome do Software:**  LeFoot
 - **Visão do Produto:** Ajudar na tomada de decisões de gerentes e diretores com relação a tomada de decisão para campanhas e compras de determinados produtos.
 - **Vídeo final de apresentação do [Sistema LeFoot](https://www.youtube.com/watch?v=f8h0w4pPKz4&t=1s)**
      
@@ -807,10 +806,25 @@ export default {
   ```
 </details>
 
+<div align="center">
 
-#### Hard Skills Efetivamente Desenvolvidas
-* HTML, CSS, JavaScript
+**Hard Skills**
+|**Tecnologia/Metodologia**|**Classificação**      |
+|--------------------------|-----------------------|
+|HTML                      |Sei fazer com Autonomia|
+|CSS                       |Sei fazer com Autonomia|
+|JavaScript                |Sei fazer com Ajuda    |
+|Git                       |Sei fazer com Ajuda    |
+|GitHub                    |Sei fazer com Ajuda    |
+|Vue.js                    |Sei fazer com Ajuda    |
+|Oracle                    |Entendi                |
 
-#### Soft Skills Efetivamente Desenvolvidas
-* Confiança
-* Lógica de programação
+
+
+**Soft Skills**
+|**Habilidade**     |**Descrição**        |
+|---------------------|-------------------|
+|Confiança|Autoconfiança e a capacidade de confiar nos próprios conhecimentos e habilidades, bem como nos outros membros da equipe.|
+|Lógica de programação|Capacidade de pensar logicamente e resolver problemas de forma estruturada e eficaz usando algoritmos e técnicas de programação.|
+
+</div>

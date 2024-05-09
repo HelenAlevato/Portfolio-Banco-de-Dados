@@ -453,17 +453,32 @@ Código de exmplo na construção das telas
 
   ```
 </details>
-	
-	
-#### Hard Skills Efetivamente Desenvolvidas
-- Java, JavaScript, HTML, (Carbon, Postgre)
 
-#### Soft Skills Efetivamente Desenvolvidas
-- Capacidade de planejamento
-- Atenção para ouvir
+<div align="center">
+
+**Hard Skills**
+|**Tecnologia/Metodologia**|**Classificação**        |
+|--------------------------|-----------------------|
+|HTML                      |Sei fazer com Autonomia|
+|CSS                       |Sei fazer com Autonomia|
+|JavaScript                |Sei fazer com Ajuda    |
+|Git                       |Sei fazer com Ajuda    |
+|GitHub                    |Sei fazer com Ajuda    |
+|Java                      |Sei fazer com Ajuda    |
+|Carbon                    |Sei fazer com Ajuda    |
+|Postgre                   |Sei fazer com Autonomia|
 
 
-	
+
+**Soft Skills**
+|**Habilidade**     |**Descrição**        |
+|-------------------|---------------------|
+|Organização|Capacidade de planejar e gerenciar tarefas de forma eficiente.|
+|Trabalho em Equipe|Habilidade de colaborar e comunicar efetivamente com outros membros da equipe para alcançar objetivos comuns.|
+|Capacidade de planejamento| Habilidade de elaborar planos detalhados para alcançar metas específicas. Isso envolve a habilidade de priorizar tarefas, estabelecer cronogramas realistas e ajustar planos conforme necessário para garantir o sucesso do projeto.|
+|Atenção para ouvir|Capacidade de ouvir atentamente as ideias, preocupações e feedback de colegas, clientes e outras partes interessadas, demonstrando empatia e compreensão.|
+
+</div>
 
 
 
