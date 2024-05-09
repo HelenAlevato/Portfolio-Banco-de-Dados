@@ -17,7 +17,7 @@ Após um ano de estágio, fui efetivada como desenvolvedora front-end, onde tenh
 Atualmente, resido em SJC/SP e estou focada em continuar minha jornada na área de TI, buscando oportunidades de aprendizado e crescimento profissional. 
 
 <p align="center">
-  <img src="C:\Users\helen\OneDrive\Documentos\Fatec_6_semestre\Jorge - Projeto trabalho de graduação em banco de dados II\Bertoti\Metodologia da Pesquisa Cientifico Tecnológica\assets\helen.jpg" alt="Helen Alevato" width="100" height="100">
+  <img src="https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/assets/helen.jpg" alt="Helen Alevato" width="200" height="200">
 </p>
 
 ## Portifólio de API's 🎯
@@ -31,7 +31,7 @@ A seguir, são apresentados os 6 projetos desenvolvidos durante o curso, incluin
 - [3° Semestre API 3: 14 BIS - Software para otimiza a criação e controle de documentos de aeronaves](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_3.md)
 - [4° Semestre API 4: LeFoot - Sistema para tomada de decisões na criação de campanhas e compras de produtos ](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_4.md)
 - [5° Semestre API 5: Persuance - Desenvolver uma aplicação para utilização da norma, exibindo as palavras aprovadas ou não aprovadas para consulta e verificação de textos](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_5.md)
-- [6° Semestre API 6: HexTech - Desenvolver uma aplicação de análise de sentimento, com bons insights](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_6.md)
+- [6° Semestre API 6: HexAnalytics - Desenvolver uma aplicação de análise de sentimento, com bons insights](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_6.md)
 
 ## Contatos 💻
 * [GIT](https://github.com/HelenAlevato)
