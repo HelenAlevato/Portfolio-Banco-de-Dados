@@ -26,8 +26,8 @@ A seguir, são apresentados os 6 projetos desenvolvidos durante o curso, incluin
 - [2° Semestre API 2: G6 - Sistema de digitação e edição de contas](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_2.md)
 - [3° Semestre API 3: 14 BIS - Software para otimiza a criação e controle de documentos de aeronaves](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_3.md)
 - [4° Semestre API 4: LeFoot - Sistema para tomada de decisões na criação de campanhas e compras de produtos ](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_4.md)
-- [5° Semestre API 5: Persuance - Desenvolver uma aplicação para utilização da norma, exibindo as palavras aprovadas ou não aprovadas para consulta e verificação de textos]()
-- [6° Semestre API 6: HexTech - Desenvolver uma aplicação de análise de sentimento, com bons insights]()
+- [5° Semestre API 5: Persuance - Desenvolver uma aplicação para utilização da norma, exibindo as palavras aprovadas ou não aprovadas para consulta e verificação de textos](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_5.md)
+- [6° Semestre API 6: HexTech - Desenvolver uma aplicação de análise de sentimento, com bons insights](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_6.md)
 
 ## Contatos 💻
 * [GIT](https://github.com/HelenAlevato)
