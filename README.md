@@ -31,4 +31,4 @@ A seguir, são apresentados os 6 projetos desenvolvidos durante o curso, incluin
 
 ## Contatos 💻
 * [GIT](https://github.com/HelenAlevato)
-* [LinkedIn](https://www.linkedin.com/in/helen-alevato/)
+* [LinkedIn](https://www.linkedin.com/in/helenalevato/)
