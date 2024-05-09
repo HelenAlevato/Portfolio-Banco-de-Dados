@@ -1,13 +1,18 @@
 
-# Metodologia da Pesquisa Científico-Tecnológica
+# Portfólio API's
 
-**Portfólio API's Banco de Dados - Helen Cristina Alevato Rodrigues**
+**Fatec faculdade de tecnologia São José dos Campos - Prof. Jessen Vidal**
 
+**Tecnólogo em Banco de Dados - Helen Cristina Alevato Rodrigues**
+
+<div style="text-align: justify;">
 Trabalho de Graduação (TG) na modalidade Portfólio desenvolvido a partir de Projetos Integradores (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, sendo parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados.
+</div>
 
 ___
 ## Olá, sou Helen Cristina 👋
 
+<div style="text-align: justify;">
 Sou estudante de Banco de Dados no sexto semestre da FATEC de SJC, buscando constantemente expandir meus conhecimentos e habilidades na área de Tecnologia da Informação.
 
 Iniciei minha jornada profissional na área de TI como estagiária de suporte na empresa Brasil 317, localizada no Parque Tecnológico da Univap em SJC. Durante este período, tive a oportunidade de trabalhar com diversas tecnologias, incluindo PostgreSQL, Redis e ferramentas de gerenciamento como Azure DevOps e AWS.
@@ -16,15 +21,20 @@ Após um ano de estágio, fui efetivada como desenvolvedora front-end, onde tenh
 
 Atualmente, resido em SJC/SP e estou focada em continuar minha jornada na área de TI, buscando oportunidades de aprendizado e crescimento profissional. 
 
+</div>
+
 <p align="center">
   <img src="https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/assets/helen.jpg" alt="Helen Alevato" width="200" height="200">
 </p>
 
 ## Portifólio de API's 🎯
-
+<div style="text-align: justify;">
+  
 O Projeto Integrador visa resolver um problema do mundo real, identificado em parceria com uma empresa e a instituição de ensino, aplicando o conhecimento adquirido durante a graduação.
 
 A seguir, são apresentados os 6 projetos desenvolvidos durante o curso, incluindo uma descrição do problema, a solução proposta e implementada, bem como os principais aprendizados obtidos.
+
+</div>
 
 - [1° Semestre API 1: Ivy - Assistente virtual para auxiliar na produtividade](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API_1.md) 
 - [2° Semestre API 2: G6 - Sistema de digitação e edição de contas](https://github.com/HelenAlevato/Bertoti/blob/main/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnol%C3%B3gica/API%20_2.md)
