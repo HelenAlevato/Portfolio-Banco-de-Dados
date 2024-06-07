@@ -1,7 +1,7 @@
 ## Meu Sexto API  📚
 
 #### Em 2024-1 (API 6)
-Trabalhei no projeto da API do quinto semestre como desenvolvedora back-end. Com o curso de Manutenção de Aeronaves. [GitHub do projeto.](https://github.com/GroupHextech/HEXTECH-API6sem)<br> 
+Trabalhei no projeto da API do sexto semestre como desenvolvedora front-end. Com a empresa Imagem. [GitHub do projeto.](https://github.com/GroupHextech/HEXTECH-API6sem)<br> 
 - **Nome do Grupo:** HexTech
 - **Nome do Software:**  HexAnalytics
 - **Visão do Produto:** Este projeto visa desenvolver uma aplicação de análise de sentimento, com bons insights
@@ -27,7 +27,87 @@ Nesse trabalho fiquei como Team Dev, responsavel pela parte de front-end.
 
 **Desenvolvimento:** 
 <details>
-  <summary>Nome da atividade</summary>
+  <summary>Gráfico por gênero do dashboard</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Gráfico quantidades de vendas por período do dia</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Adiciona gráfico de vendas por período mensal</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Filtros na tela do mapa</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Filtros na tela dashboard</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Conexão filtro sentimento e ajustes</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Inclusão do DOCX para baixar relatório</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Relatório do dashboard</summary>
+	
+	Descrição da atividade 
+  
+  ```javascript
+ 
+  ```
+</details>
+
+<details>
+  <summary>Relatório do mapa</summary>
 	
 	Descrição da atividade 
   
