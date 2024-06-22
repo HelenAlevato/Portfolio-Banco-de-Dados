@@ -1,13 +1,13 @@
 ## Meu Sexto API  📚
 
 #### Em 2024-1 (API 6)
-Trabalhei no projeto da API do sexto semestre como desenvolvedora front-end. Com a empresa Imagem. [GitHub do projeto.](https://github.com/GroupHextech/HEXTECH-API6sem)<br> 
+Trabalhamos no projeto da API do sexto semestre como desenvolvedora front-end. Com a empresa Imagem. [GitHub do projeto.](https://github.com/GroupHextech/HEXTECH-API6sem)<br> 
 - **Nome do Grupo:** HexTech
 - **Nome do Software:**  HexAnalytics
 - **Visão do Produto:** Este projeto visa desenvolver uma aplicação de análise de sentimento, com bons insights
      
  - **Objetivo do Produto:** 
-	 - O objetivo é criar uma plataforma que entenda o que os clientes sentem através de avaliações online das lojas Americanas num determinado período, usando inteligencia artificial para análise dos sentimentos, armazenar dados e mostrar tudo atraves demapa de calor e gráficos. Assim, a empresa Imagem pode ver como os clientes se sentem em diferentes lugares e adaptar suas estratégias de marketing e atendimento. Com isso, podem tomar decisões melhores para melhorar a experiência do cliente e se conectar de forma mais forte com eles.
+	 - O objetivo é criar uma plataforma que entenda o que os clientes sentem através de avaliações online das lojas Americanas num determinado período, usando inteligência artificial para análise dos sentimentos, armazenar dados e mostrar tudo através de mapa de calor e gráficos. Assim, a empresa Imagem pode ver como os clientes se sentem em diferentes lugares e adaptar suas estratégias de marketing e atendimento. Com isso, podem tomar decisões melhores para melhorar a experiência do cliente e se conectar de forma mais forte com eles.
   
 - **Problema (Desafio):** 
 
@@ -23,7 +23,7 @@ Trabalhei no projeto da API do sexto semestre como desenvolvedora front-end. Com
 - Banco de Dados: Mongodb compass
 
 ## Contribuições Pessoais 👩
-Nesse trabalho fiquei como Team Dev, responsavel pela parte de front-end. 
+Nesse trabalho fiquei como Team Dev, responsável pela parte de front-end. 
 
 **Desenvolvimento:** 
 <details>

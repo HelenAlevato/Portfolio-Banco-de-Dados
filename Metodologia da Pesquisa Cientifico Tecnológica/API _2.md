@@ -1,7 +1,7 @@
 ## Meu Segundo API  📚
 
 #### Em 2020-2 (API 2)
-Trabalhei no projeto da API com o Parceiro TecSus. [GitHub do projeto.](https://github.com/HelenAlevato/PI-GRUPO-6)<br> 
+Trabalhamos no projeto da API com o Parceiro TecSus. [GitHub do projeto.](https://github.com/HelenAlevato/PI-GRUPO-6)<br> 
 - **Nome do Grupo:** GRUPO-6
 - **Nome do Software:**  G6
 - **Visão do Produto:** Sistema de digitação e edição de contas.
@@ -16,8 +16,8 @@ Trabalhei no projeto da API com o Parceiro TecSus. [GitHub do projeto.](https://
 - **Proposta:**
 
 	- A proposta era fazer um sistema que melhorasse a rotina de digitação dos funcionários. 
-  -  Filtrar e selecionar o tipo de conta desejada referente a um cliente específico, pois o digitador necessita verificar qual tipo de conta será editada e qual mês e ano de referência. Objetivo principal para auxiliar na alteração, visualização e separação dos tipos de contas ajudando na correção de possíveis erros.
-  - Gerenciar cada tipo de conta em um campo específico, que seja no modelo da empresa escolhida, pois a dificuldade está na forma que o digitador coloca os dados no sistema, cada conta com seus campos específicos ficaria mais intuitivo e prático para que o resultado final tenha mais agilidade. Para poder alterar e acessar os campos necessários referentes a cada conta.
+	-  Filtrar e selecionar o tipo de conta desejada referente a um cliente específico, pois o digitador necessita verificar qual tipo de conta será editada e qual mês e ano de referência. Objetivo principal para auxiliar na alteração, visualização e separação dos tipos de contas ajudando na correção de possíveis erros.
+	- Gerenciar cada tipo de conta em um campo específico, que seja no modelo da empresa escolhida, pois a dificuldade está na forma que o digitador coloca os dados no sistema, cada conta com seus campos específicos ficaria mais intuitivo e prático para que o resultado final tenha mais agilidade. Para poder alterar e acessar os campos necessários referentes a cada conta.
 
   <br>
 
@@ -35,7 +35,7 @@ Nesse trabalho fiquei como desenvolvedora, responsável também por algumas apre
 
 Telas feitas para o sistema
   - Cadastro Cliente: Tela para cadastrar os usuários que contratarem o sistema da empresa;
-  - Cadastro Imovel: Dados cadastrais do imóvel ou imoveis do usuário;
+  - Cadastro Imóvel: Dados cadastrais do imóvel ou imóveis do usuário;
   - Cadastro Usuário: Tela para cadastrar o funcionário que irá mexer no sistema;
   - Conta Água: Tela para facilitar na digitação dos campos das contas de água;
   - Conta Gás: Tela para facilitar na digitação dos campos das contas de gás;
@@ -44,23 +44,23 @@ Telas feitas para o sistema
   
 Funcionalidades 
 - Organização das telas e Adição da funcionalidade limpar
-- Inclusão das mascaras
+- Inclusão das máscaras
 - Inserção de usuário e cliente no Banco pela tela
 - Busca do cliente na conta de luz
-- Movimentação dos documentos para /doc
+- Movimentação dos documentos para /doc.
 - Adição da tela de Cadastro de Imóvel
-- Busca do imovel/cliente para o cadastro das contas
+- Busca do imóvel/cliente para o cadastro das contas
 - Tela Busca
 - Adição do Tooltip
 - Ícone da aplicação
 - Adição do JAR
 
-Código de exmplo na construção das telas
+Código de exemplo na construção das telas
 
 <details>
   <summary>Exemplo do desenvolvimento de uma das telas, no caso Conta de Água</summary>
 	
-	Na tela de conta, nesse caso a de água foi pega as informações principais das contas de água e feito um formulario 
+	Na tela de conta, nesse caso a de água foi pega as informações principais das contas de água e feito um formulário  
 	para que o usuário que precisar digitar a conta consiga fazer isso de forma fácil e rápida.
   
   ```java

@@ -1,13 +1,13 @@
 ## Meu Primeiro API  📚
 
 #### Em 2020-1 (API 1)
-Trabalhei no projeto da API do primeiro semestre. O master era um integrante do sexto semestre. O professor Fabiano S. foi o orientador. [GitHub do projeto.](https://github.com/Projeto-Integrador-BD)<br> 
+Trabalhamos no projeto da API do primeiro semestre. O master era um integrante do sexto semestre. O professor Fabiano S. foi o orientador. [GitHub do projeto.](https://github.com/Projeto-Integrador-BD)<br> 
 - **Nome do Grupo:** ivy-projeto-bd
 - **Nome do Software:**  Ivy
 - **Visão do Produto:** Gerenciamento de produtividade pessoal para o dia a dia.
      
  - **Objetivo do Produto:** 
-	  - Assistente vistual de voz
+	  - Assistente virtual de voz
   
 - **Problema (Desafio):** 
 

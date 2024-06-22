@@ -1,7 +1,7 @@
 ## Meu Terceiro API  📚
 
 #### Em 2021-1 (API 3)
-Trabalhei no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
+Trabalhamos no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
 - **Nome do Grupo:** Finger One
 - **Nome do Software:**  14 BIS
 - **Visão do Produto:** Fornecer suporte para a criação de um software, onde o usuário terá uma facilidade em customizar, controlar e revisar documentos formados por fragmentos armazenados em arquivos PDF.
@@ -38,9 +38,7 @@ Dentro das contribuições pessoais eu fiquei responsável por ser P.O e membro 
 
 **P.O:**
 
-Na experiência como P.O eu pude aprender muito, é um cargo de grande reponsabilidade e é primordial para o bom andamento do projeto. Nesse papel eu fiquei em contato direto com o cliente, sempre tenato entender o que ele queria e o que seria possível da gente alunos do terceiro semetre desenvolver com o conhecimento que tinhamos e estavamos adiquirindo. 
-Enfrentei muitos obstaculos, percebi que não tenho perfil para ser P.O, mas mesmo assim não desisti, pois ninguém mais queria o cargo.
-Sendo P.O eu fazia no mínimo 2 reuniões semanais. Conseguimos documentar bem os requisitos esperados e dessa forma as atividades foram distribuidades entre a equipe de Front-end e Back-end/Banco de Dados.
+Na experiência como P.O., aprendi muito. É um cargo de grande responsabilidade e essencial para o bom andamento do projeto. Nesse papel, estive em contato direto com o cliente, sempre tentando entender suas necessidades e o que nós, alunos do terceiro semestre, podíamos desenvolver com o conhecimento que tínhamos e estávamos adquirindo. Enfrentei muitos desafios e percebi que não tenho o perfil ideal para ser P.O. Com o grupo, realizava pelo menos duas reuniões semanais. Conseguimos documentar bem os requisitos esperados, e assim as atividades foram distribuídas entre a equipe de Front-end e a de Back-end/Banco de Dados.
 
 **Desenvolvimento:**  
 
@@ -52,14 +50,14 @@ Sendo P.O eu fazia no mínimo 2 reuniões semanais. Conseguimos documentar bem o
 - Adição do manual ao passar o Codelist
 - Pequenas atualizações visuais na interface
 - Envio do nome do manual na inserção do codelist
-- Tabela Manual: Retornar todos manuais cadastrados
+- Tabela Manual: Retornar todos os manuais cadastrados
 - Controller para busca dos manuais
 - Adição da Tela de Edição de Blocos do Codelist
 - Ajuste na configuração do caminho do PDF
 - Melhorias na página do codelist e busca de PDFs com base na aplicabilidade
 - Busca de todas as páginas pelo bloco e pelo codigo
 
-Código de exmplo na construção das telas
+Código de exemplo na construção das telas
 
 <details>
   <summary>Codelist</summary>

@@ -1,7 +1,7 @@
 ## Meu Quarto API  📚
 
 #### Em 2022-1 (API 4)
-Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Com a empresa Oracle como parceira. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
+Trabalhamos no projeto da API do quarto semestre como desenvolvedora front-end. Com a empresa Oracle como parceira. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
 - **Nome do Grupo:** VueForce
 - **Visão do Produto:** Ajudar na tomada de decisões de gerentes e diretores com relação a tomada de decisão para campanhas e compras de determinados produtos.
 - **Vídeo final de apresentação do [Sistema LeFoot](https://www.youtube.com/watch?v=f8h0w4pPKz4&t=1s)**
@@ -11,16 +11,16 @@ Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Co
   
 - **Problema (Desafio):** 
 
-	- O desafio era criar um sistema que mostrasse indices coerentes para toamada de decisão de gestores e diretores de lojas de sapatos.
+	- O desafio era criar um sistema que mostrasse índices coerentes para tomada de decisão de gestores e diretores de lojas de sapatos.
 
 - **Proposta:**
 
 	- Tela de Cadastro: Para o usuário fazer seu cadastro;
-	- E-mail desparado quando o cadastro for feito;
+	- E-mail disparado quando o cadastro for feito;
 	- Tela de Login: Para o usuário logar no sistema;
 	- Tela de Upload de CSV: Baixa as informações do CSV e grava no banco de dados;
 	- Tela de Filtrar Clientes: Filtra os clientes por: Gênero, Região, Categoria do sapato e Cor;
-	- Tela de Dashboard: Mostrar as análises por meio de 3 graficos que seriam:
+	- Tela de Dashboard: Mostrar as análises por meio de 3 gráficos que seriam:
 		- Gráfico de barras da soma de todos os produtos por gênero
 		- Gráfico de donut dos produtos mais vendidos por gênero
 		- Gráfico de linhas do valor gasto por gênero para cada região
@@ -34,7 +34,7 @@ Trabalhei no projeto da API do quarto semestre como desenvolvedora front-end. Co
 - GitLab
 
 ## Contribuições Pessoais 👩
-Nesse trabalho fiquei como Team Dev, responsavel pela parte de front-end. 
+Nesse trabalho fiquei como Team Dev, responsável pela parte de front-end. 
 Referente a parte de planejamento fiz os desenhos da tela pelo figma e o modo de navegação, como ficaria no projeto final.
 Na parte de back-end contribui apenas com uma correção de organização referente aos dados exibidos na Tela de Filtrar Clientes.
 No front-end onde tive mais atuação fiz as telas e ligações com o back-end, as atividades dividi em alguns tópicos abaixo:
@@ -44,7 +44,7 @@ No front-end onde tive mais atuação fiz as telas e ligações com o back-end, 
 <details>
   <summary>Tela de Upload CSV</summary>
 	
-	Nessa tela foi desenvolvida a funcionalidade de  salvar no sitema gravando no banco de dados um arquivo CSV, 
+	Nessa tela foi desenvolvida a funcionalidade de  salvar no sistema gravando no banco de dados um arquivo CSV, 
 	para que as informações dele sejam usadas e manipuladas no sistema.
   
   ```javascript
