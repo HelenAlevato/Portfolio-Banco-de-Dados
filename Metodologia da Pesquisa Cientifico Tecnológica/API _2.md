@@ -1,7 +1,7 @@
 ## Meu Segundo API  📚
 
 #### Em 2020-2 (API 2)
-Trabalhamos no projeto da API com o Parceiro TecSus. [GitHub do projeto.](https://github.com/HelenAlevato/PI-GRUPO-6)<br> 
+Trabalhamos no projeto da API do segundo semestre com a empresa TecSus como parceira. [GitHub do projeto.](https://github.com/HelenAlevato/PI-GRUPO-6)<br> 
 - **Nome do Grupo:** GRUPO-6
 - **Nome do Software:**  G6
 - **Visão do Produto:** Sistema de digitação e edição de contas.

@@ -1,7 +1,7 @@
 ## Meu Terceiro API  📚
 
 #### Em 2021-1 (API 3)
-Trabalhamos no projeto da API com o Parceiro Embraer.  [GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
+Trabalhamos no projeto da API do terceiro semestre com a empresa Embraer como parceira.[GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
 - **Nome do Grupo:** Finger One
 - **Nome do Software:**  14 BIS
 - **Visão do Produto:** Fornecer suporte para a criação de um software, onde o usuário terá uma facilidade em customizar, controlar e revisar documentos formados por fragmentos armazenados em arquivos PDF.
