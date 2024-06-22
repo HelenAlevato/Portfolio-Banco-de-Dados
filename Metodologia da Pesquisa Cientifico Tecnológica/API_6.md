@@ -2,6 +2,11 @@
 
 #### Em 2024-1 (API 6)
 Trabalhamos no projeto da API do sexto semestre como desenvolvedora front-end. Com a empresa Imagem. [GitHub do projeto.](https://github.com/GroupHextech/HEXTECH-API6sem)<br> 
+
+
+![image](https://github.com/HelenAlevato/Portfolio-Banco-de-Dados/assets/61571753/7cba775b-d4d4-4e35-8a35-50185c46f4e1)
+
+
 - **Nome do Grupo:** HexTech
 - **Nome do Software:**  HexAnalytics
 - **Visão do Produto:** Este projeto visa desenvolver uma aplicação de análise de sentimento, com bons insights
