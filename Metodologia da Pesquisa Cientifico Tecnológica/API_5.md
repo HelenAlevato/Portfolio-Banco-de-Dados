@@ -1,7 +1,12 @@
 ## Meu Quinto API  📚
 
 #### Em 2022-2 (API 5)
-Trabalhamos no projeto da API do quinto semestre com o curso de Manutenção de Aeronaves. [GitHub do projeto.](https://github.com/EquipeFatec/persuance-frontend)<br> 
+Trabalhamos no projeto da API do quinto semestre com o curso de Manutenção de Aeronaves como parceiro. [GitHub do projeto.](https://github.com/EquipeFatec/persuance-frontend)<br> 
+
+
+![image](https://github.com/HelenAlevato/Portfolio-Banco-de-Dados/assets/61571753/0d2cd153-a4b0-44ba-a314-72b99b057230)
+
+
 - **Nome do Grupo:** Sanja valley
 - **Nome do Software:**  Persuance
 - **Visão do Produto:** Este projeto visa desenvolver uma aplicação para utilização da norma, exibindo as palavras aprovadas ou não aprovadas para consulta e verificação de textos.

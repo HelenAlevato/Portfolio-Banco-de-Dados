@@ -2,6 +2,11 @@
 
 #### Em 2022-1 (API 4)
 Trabalhamos no projeto da API do quarto semestre com a empresa Oracle como parceira. [GitLab do projeto.](https://gitlab.com/vueforce1/lefoot)<br> 
+
+
+![image](https://github.com/HelenAlevato/Portfolio-Banco-de-Dados/assets/61571753/8ddefe05-4646-4d80-a2b1-4fd6ba5090d0)
+
+
 - **Nome do Grupo:** VueForce
 - **Visão do Produto:** Ajudar na tomada de decisões de gerentes e diretores com relação a tomada de decisão para campanhas e compras de determinados produtos.
 - **Vídeo final de apresentação do [Sistema LeFoot](https://www.youtube.com/watch?v=f8h0w4pPKz4&t=1s)**

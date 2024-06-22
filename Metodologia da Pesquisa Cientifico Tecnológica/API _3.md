@@ -2,6 +2,11 @@
 
 #### Em 2021-1 (API 3)
 Trabalhamos no projeto da API do terceiro semestre com a empresa Embraer como parceira.[GitHub do projeto.](https://github.com/HelenAlevato/14bis)<br> 
+
+
+![image](https://github.com/HelenAlevato/Portfolio-Banco-de-Dados/assets/61571753/7133976c-97c4-4945-9712-0c6677892b75)
+
+
 - **Nome do Grupo:** Finger One
 - **Nome do Software:**  14 BIS
 - **Visão do Produto:** Fornecer suporte para a criação de um software, onde o usuário terá uma facilidade em customizar, controlar e revisar documentos formados por fragmentos armazenados em arquivos PDF.
