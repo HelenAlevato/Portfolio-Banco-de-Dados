@@ -2,6 +2,10 @@
 
 #### Em 2020-1 (API 1)
 Trabalhamos no projeto da API do primeiro semestre. O master era um integrante do sexto semestre. O professor Fabiano S. foi o orientador. [GitHub do projeto.](https://github.com/Projeto-Integrador-BD)<br> 
+
+![image](https://github.com/HelenAlevato/Bertoti/assets/61571753/dbc951d1-8479-4585-b2e5-a96b93319770)
+
+
 - **Nome do Grupo:** ivy-projeto-bd
 - **Nome do Software:**  Ivy
 - **Visão do Produto:** Gerenciamento de produtividade pessoal para o dia a dia.
